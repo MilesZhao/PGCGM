@@ -93,6 +93,11 @@ if __name__ == '__main__':
     parser.add_argument("--further_merge_ratio", type=float, default=1.5, help="lambda for further merging atoms")
     parser.add_argument("--dist_ratio", type=float, default=0.75, help="lambda for dist check")
     args = parser.parse_args()
+    
+    
+    if os.path.exists('ternary_final_cifs/'):
+        os.system('rm -rf ternary_final_cifs/')
+    os.system('mkdir ternary_final_cifs/')
 
     if os.path.exists('ternary_final_cifs/merged_cifs_%.2f_%.2f'%(args.merge_ratio, args.dist_ratio)):
         os.system('rm -rf ternary_final_cifs/merged_cifs_%.2f_%.2f'%(args.merge_ratio, args.dist_ratio))
