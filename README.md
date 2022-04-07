@@ -1,5 +1,5 @@
 # Source code for generate materials with 20 space groups using PGCGM
-### HIGH-THROUGHPUT DISCOVERY OF CUBIC CRYSTAL MATERIALS USING DEEP GENERATIVE NEURAL NETWORKS
+### Physics Guided Generative Adversarial Networks for Generations of Crystal Materials with High Symmetry Constraints
 
 <img src="mainframe.png" height="300px">
 
@@ -9,14 +9,12 @@ Created by Yong Zhao
 
 This repository contains the implementation of generation code of CubicGAN.
 ## Prerequisites
-python 3.8.10 
-pymatgen==2022.0.6 
-torch==1.7.1+cu110 
-torchaudio==0.7.2 
-torchvision==0.8.2+cu110 
-numpy==1.19.5 
-scipy==1.6.0   
+python 3.8  
+pymatgen==2022.0.6  
+torch==1.7.1+cu110  
+torchaudio==0.7.2  
+torchvision==0.8.2+cu110  
+numpy==1.19.5  
+scipy==1.6.0  
 
-we recommend that you build a virtural environment running the code. Then you just run ```bash
-sh/gen.sh
-``` to start generate virtual materials.
+we recommend that you build a virtural environment running the code. Then you just run `sh/gen.sh` to start generate virtual materials.
