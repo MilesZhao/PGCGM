@@ -1,0 +1,14 @@
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  'x, -y, -z'
+  4  '-x, y, -z'
+  5  'z, x, y'
+  6  'z, -x, -y'
+  7  '-z, x, -y'
+  8  '-z, -x, y'
+  9  'y, z, x'
+  10  '-y, z, -x'
+  11  '-y, -z, x'
+  12  'y, -z, -x'
