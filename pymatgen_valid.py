@@ -17,6 +17,10 @@ import multiprocessing as mp
 gen_cifs = os.listdir('ternary_gen_cifs/')
 print(len(gen_cifs))
 
+if os.path.exists('ternary_symm_cifs/'):
+    os.system('rm -rf ternary_symm_cifs/')
+os.system('mkdir ternary_symm_cifs/')
+
 def read_tar(file):
     whichtar = file.split('.')[0]
     os.mkdir('ternary_symm_cifs/'+whichtar)
