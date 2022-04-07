@@ -10,6 +10,7 @@ Created by Yong Zhao
 This repository contains the implementation of generation code of CubicGAN.
 ## Prerequisites
 python 3.8.10
+
 pymatgen==2022.0.6
 torch==1.7.1+cu110
 torchaudio==0.7.2
