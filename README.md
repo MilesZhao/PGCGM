@@ -1,4 +1,4 @@
-# Source code for generate materials with 20 space groups using PGCGM
+# PGCGM:
 ### Physics Guided Generative Adversarial Networks for Generations of Crystal Materials with High Symmetry Constraints
 
 <img src="mainframe.png" height="300px">
@@ -17,4 +17,4 @@ torchvision==0.8.2+cu110
 numpy==1.19.5  
 scipy==1.6.0  
 
-we recommend that you build a virtural environment running the code. Then you just run `sh/gen.sh` to start generate virtual materials.
+we recommend that you build a virtural environment running the code. Then you just run `sh/gen.sh` to start to generate virtual materials.
