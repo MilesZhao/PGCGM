@@ -7,7 +7,7 @@ Created by Yong Zhao
 
 ## Introduction
 
-This repository contains the implementation of generation code of CubicGAN.
+This repository contains the implementation of generation code of PGCGM.
 ## Prerequisites
 python 3.8  
 pymatgen==2022.0.6  
