@@ -18,7 +18,7 @@ we recommend that you build a virtural environment running the code. Below are s
 conda create -n blm
 conda activate blm
 ```
-If there is no pip installed, try run below:
+If there is no pip installed, run below:
 ```
 conda install pip
 ```
