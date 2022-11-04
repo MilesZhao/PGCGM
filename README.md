@@ -8,6 +8,27 @@ Created by Yong Zhao
 ## Introduction
 
 This repository contains the implementation of generation code of PGCGM.
+
+### Running environment set up
+
+we recommend that you build a virtural environment running the code. Below are steps that can install the dependent packages.
+
+#### create conda virtual environment and activate it
+```
+conda create -n blm
+conda activate blm
+```
+If there is pip installed, try run below:
+```
+conda install pip
+```
+
+Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) based on your python & cuda version. For example,
+```
+conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
+```
+
+
 ## Prerequisites
 python 3.8  
 pymatgen==2022.0.6  
