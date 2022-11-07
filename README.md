@@ -55,4 +55,4 @@ cd PGCGM
 ls ternary_final_cifs
 ```
 
-Your generated cif files are located in the ternary_final_cifs folder
+Your generated cif files are located in the ```ternary_final_cifs``` folder.
