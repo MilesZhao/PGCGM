@@ -52,6 +52,7 @@ pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cpu torchaudio==0.7.2 -f http
 git clone https://github.com/MilesZhao/PGCGM.git
 cd PGCGM
 ./sh/gen.sh
+ls ternary_final_cifs
 ```
 
 Your generated cif files are located in the ternary_final_cifs folder
