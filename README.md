@@ -53,3 +53,5 @@ git clone https://github.com/MilesZhao/PGCGM.git
 cd PGCGM
 ./sh/gen.sh
 ```
+
+Your generated cif files are located in the ternary_final_cifs folder
