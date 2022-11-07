@@ -15,7 +15,7 @@ we recommend that you build a virtural environment running the code. Below are s
 
 #### Create conda virtual environment and activate it
 ```
-conda create -n blm
+conda create -n blm python=3.7
 conda activate blm
 ```
 If there is no pip installed, run below:
