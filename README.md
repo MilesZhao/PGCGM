@@ -26,9 +26,7 @@ conda install pip
 Install following packages using pip:
 ```
 pip install pymatgen==2022.0.6
-pip install scipy==1.6.0
-pip install numpy==1.19.5
-pip install pandas==1.2.4
+pip install pickle5
 ```
 
 Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) based on your python & cuda version. For example,
