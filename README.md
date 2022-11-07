@@ -15,8 +15,8 @@ we recommend that you build a virtural environment running the code. Below are s
 
 #### Create conda virtual environment and activate it
 ```
-conda create -n blm python=3.7
-conda activate blm
+conda create -n pgcgm python=3.7
+conda activate pgcgm
 ```
 If there is no pip installed, run below:
 ```
