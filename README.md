@@ -7,7 +7,9 @@ Created by Yong Zhao
 
 ## Introduction
 
-This repository contains the implementation of generation code of PGCGM. If you want to run the code, you run it on `Colab`. The link is [PGCGM](https://colab.research.google.com/drive/1m9RZIRoHaAQLNKxyiowHA8YMXgR86p5P#scrollTo=s50VQhHyUKkB). You need to make sure install the dependencies and then download folders of `data` and `models` and python scripts of `model.py` and `simle_dist.py` to your google drive in this [files](https://drive.google.com/drive/folders/1LmQZ3HJXLXyhLiuFB4hFgylp_cSRGVwv).
+This repository contains the implementation of generation code of PGCGM. If you want to try the code quickly, you run it on Google `Colab`. The colab link is here [PGCGM Colab](https://colab.research.google.com/drive/1VvVl2IO6opptVJkl_fTjC5s6WVKyLh5C?usp=sharing). After click the link, first download the [datamodel.zip](https://github.com/MilesZhao/PGCGM/blob/main/datamodel.zip) file and upload to your colab drive. And then Runtime/runall menu. 
+
+The following installation guide is for running our model on your local machine.
 
 ### Running environment set up
 
