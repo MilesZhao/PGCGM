@@ -24,35 +24,30 @@ conda install pip
 ```
 Find your anaconda directory, and find the actual ```pgcgm``` folder. It should be somewhere like if you are using miniconda:  
 ```
+$which pip3
 ~/miniconda3/envs/pgcgm/bin/pip3
 ```
-or if you are using anaconda
+or
 ```
-~/anaconda/envs/pgcgm/bin/pip3
+$HOME/.conda/envs/pgcgm/bin/pip3
 ```
 
 
-Then install following packages using (for miniconda):
+
+Then install following packages using:
 ```
-~/miniconda3/envs/pgcgm/bin/pip3 install pymatgen==2022.0.6
-~/miniconda3/envs/pgcgm/bin/pip3 install pickle5
+pip3 install pymatgen==2022.0.6
+pip3 install pickle5
 ```
-or using (for anaconda):
-```
-~/anaconda/envs/pgcgm/bin/pip3 install pymatgen==2022.0.6
-~/anaconda/envs/pgcgm/bin/pip3 install pickle5
-```
+
 
 Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) based on your python & cuda version. For example,
 For miniconda
 ```
-~/miniconda3/envs/pgcgm/bin/pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-For anaconda
-```
-~/anaconda/envs/pgcgm/bin/pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
-```
+
 
 Once you install all those packages, you just run below script:
 ```
