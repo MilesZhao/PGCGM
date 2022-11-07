@@ -1,7 +1,7 @@
 import os
 import json
 import glob
-import pickle
+import pickle5 as pickle
 import shutil
 import tarfile
 import argparse
