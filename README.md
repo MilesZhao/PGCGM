@@ -14,18 +14,15 @@ This repository contains the implementation of generation code of PGCGM. If you 
 we recommend that you build a virtural environment running the code. Below are steps that can install the dependent packages.
 The installation has been tested under Ubuntu Linux with Nvidia 2080Ti and Nvidia 3090 GPUs.
 
-#### Create conda virtual environment and activate it
+#### Step1: Create conda virtual environment and activate it
 ```
 conda create -n pgcgm python=3.7
 conda activate pgcgm
 ```
-If there is no pip installed, run below:
+
+use 'which' command to check folder of pip3 is located within the actual env ```pgcgm``` folder. It should be somewhere like if you are using miniconda: 
 ```
-conda install pip
-```
-use which command to check folder of pip3 is located within the actual env ```pgcgm``` folder. It should be somewhere like if you are using miniconda:  
-```
-$which pip3
+which pip3
 ~/miniconda3/envs/pgcgm/bin/pip3
 ```
 or
@@ -34,14 +31,11 @@ $HOME/.conda/envs/pgcgm/bin/pip3
 ```
 
 
-
-Then install following packages using:
+#### Step2: Then install following packages using:
 ```
 pip3 install pymatgen==2022.0.6
 pip3 install pickle5
 ```
-
-
 Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) based on your python & cuda version. For example,
 For miniconda
 ```
@@ -53,7 +47,7 @@ pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cpu torchaudio==0.7.2 -f http
 ```
 
 
-Once you install all those packages, you just run below script:
+#### Step3: Once you install all those packages, you just run below commands to generate crystal structures:
 ```
 git clone https://github.com/MilesZhao/PGCGM.git
 cd PGCGM
