@@ -51,5 +51,7 @@ pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f ht
 
 Once you install all those packages, you just run below script:
 ```
+git clone https://github.com/MilesZhao/PGCGM.git
+cd PGCGM
 ./sh/gen.sh
 ```
