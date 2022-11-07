@@ -22,7 +22,7 @@ If there is no pip installed, run below:
 ```
 conda install pip
 ```
-Find your anaconda directory, and find the actual ```pgcgm``` folder. It should be somewhere like if you are using miniconda:  
+use which command to check folder of pip3 is located within the actual env ```pgcgm``` folder. It should be somewhere like if you are using miniconda:  
 ```
 $which pip3
 ~/miniconda3/envs/pgcgm/bin/pip3
