@@ -1,6 +1,0 @@
-pymatgen==2022.0.6
-torch==1.7.1+cu110
-torchaudio==0.7.2
-torchvision==0.8.2+cu110
-numpy==1.19.5
-scipy==1.6.0
