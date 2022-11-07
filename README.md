@@ -12,6 +12,7 @@ This repository contains the implementation of generation code of PGCGM. If you 
 ### Running environment set up
 
 we recommend that you build a virtural environment running the code. Below are steps that can install the dependent packages.
+The installation has been tested under Ubuntu Linux with Nvidia 2080Ti and Nvidia 3090 GPUs.
 
 #### Create conda virtual environment and activate it
 ```
@@ -46,7 +47,10 @@ For miniconda
 ```
 pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 ```
-
+If your machine has no GPU, use this:
+```
+pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cpu torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+```
 
 
 Once you install all those packages, you just run below script:
